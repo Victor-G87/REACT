@@ -5,13 +5,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const getTime = () => (new Date()).toLocaleTimeString();
+
 const App = () => {
     return (
+<div>
+    <div className="cTime">
+        <h3>Current time {getTime()}</h3>
+    </div>
     <div className="form">
         <div className="form-toggle"></div>
         <div className="form-panel one">
             <div className="form-header">
-                <h1>Account Login</h1>
+                <h3>Account Login</h3>
             </div>
             <div className="form-content">
                 <form>
@@ -63,6 +69,7 @@ const App = () => {
             </div>
         </div>
     </div>
+</div>
     );
 };
 
