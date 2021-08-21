@@ -16,3 +16,19 @@
     align-items: center;
     height: 100vh;
 }
+
+.winter{
+    background-color: aliceblue;
+}
+
+.summer {
+    background-color: #ffdb96;
+}
+
+.season-display.winter i {
+    color: dodgerblue;
+}
+
+.season-display.summer i {
+    color: orangered;
+}
